@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev":""
+  },
   "devDependencies": {
     "@eslint/js": "^9.37.0",
     "@types/bun": "latest",
