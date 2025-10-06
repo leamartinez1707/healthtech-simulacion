@@ -1,10 +1,10 @@
 {
   "name": "backend",
-  "module": "index.ts",
+  "module": "server.ts",
   "type": "module",
   "private": true,
   "scripts": {
-    "dev":""
+    "dev": "bun --watch server.ts"
   },
   "devDependencies": {
     "@eslint/js": "^9.37.0",
