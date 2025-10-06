@@ -1,7 +1,7 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
 import morgan from "morgan";
-import { cors_options } from "./src/shared/config/cors";
+import { cors_options } from "./src/infrastructure/config/cors";
 
 const server = express();
 
